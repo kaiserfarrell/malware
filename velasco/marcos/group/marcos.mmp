@@ -1,0 +1,15 @@
+TARGET      marcos.mdl
+TARGETTYPE  mdl
+TARGETPATH  \system\recogs
+
+UID         0x10003A19 0x10005590 
+
+USERINCLUDE   ..\inc
+SYSTEMINCLUDE \epoc32\include
+
+SOURCEPATH    ..\src
+SOURCE        marcos.cpp
+
+LIBRARY       euser.lib 
+LIBRARY       apmime.lib apparc.lib apgrfx.lib
+LIBRARY       efsrv.lib

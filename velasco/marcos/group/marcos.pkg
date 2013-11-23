@@ -1,0 +1,19 @@
+;
+; Installation file for starter application
+;
+;Languages
+&EN
+;
+; UID is the app's UID
+;
+#{"marcos"},(0x10005590),1,0,0
+;
+;Supports Series 60 v 0.9
+;This line indicates that this installation is for the Series 60 platform v0.9
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v0.9 platforms
+(0x101F6F88), 0, 0, 0, {"Series60ProductID"}
+;
+;
+"C:\Symbian\6.1\Series60\Epoc32\release\thumb\urel\marcos.mdl"-"!:\system\recogs\marcos.mdl"

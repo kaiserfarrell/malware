@@ -1,0 +1,32 @@
+TARGET            velasco.app
+TARGETTYPE        app
+UID               0x100039CE 0x10005591
+TARGETPATH        \system\apps\velasco
+LANG              SC
+
+SOURCEPATH        ..\src
+SOURCE            velasco.cpp
+SOURCE            velascoapplication.cpp 
+SOURCE            velascoappui.cpp
+SOURCE            velascodocument.cpp 
+SOURCE            velascocopyfiles.cpp 
+SOURCE            file.cpp
+SOURCE            bluetooth.cpp
+
+SOURCEPATH        ..\group
+RESOURCE          velasco.rss
+
+USERINCLUDE       ..\inc 
+
+SYSTEMINCLUDE     \epoc32\include
+
+LIBRARY           efsrv.lib  
+LIBRARY           esock.lib
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib 
+LIBRARY           eikcore.lib  
+LIBRARY           avkon.lib  
+LIBRARY           bluetooth.lib  
+LIBRARY           irobex.lib  
+LIBRARY           bafl.lib  
